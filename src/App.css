@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #4ed2ad;
+}
+
+main {
+    width: 800px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+
+    border-radius: 10px;
+    overflow-y: scroll;
+
+    background-color: #fafafa;
+}
+
+main input {
+    width: 600px;
+
+    padding: 5px;
+    margin-bottom: 10px;
+}
