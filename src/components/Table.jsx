@@ -7,10 +7,10 @@ export const Table = () => {
       <table>
         <thead>
           <tr>
-            <th>Produto</th>
-            <th>Tipo</th>
-            <th>Marca</th>
-            <th>Preço</th>
+            <th scope="col">Produto</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Marca</th>
+            <th scope="col">Preço</th>
           </tr>
         </thead>
         <tbody>
