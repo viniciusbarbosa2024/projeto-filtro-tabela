@@ -9,25 +9,10 @@ export const Table = ({productsDisplayed}) => {
       <table>
         <thead>
           <tr>
-            <th>
-                Produto
-                           
-            </th>
-            <th>
-              <div>
-                <span>Tipo</span>
-                <img src="../images/arrow_drop_down.png" alt="" className={styles.arrowDropDown}/>
-              </div>
-            </th>
-            <th>
-              <div>
-                <span>Marca</span>
-                <img src="../images/arrow_drop_down.png" alt="" className={styles.arrowDropDown}/>
-              </div>
-            </th>
-            <th>
-              Preço
-            </th>
+            <th>Produto</th>
+            <th>Tipo</th>
+            <th>Marca</th>
+            <th>Preço</th>
           </tr>
         </thead>
         <tbody>

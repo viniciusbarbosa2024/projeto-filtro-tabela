@@ -14,24 +14,11 @@ td {
     border: 1px solid #ddd;
 }
 
-
 th {
-    
-    padding: 5px;
+    padding: 2px;
     
     border: 1px solid #ddd;
     
     background-color: #266351;
     color: #fafafa;
-}
-
-th div {
-    display: flex;
-    justify-content: space-between;
-
-    cursor: pointer;
-}
-
-.arrowDropDown {
-    width: 20px;
 }
