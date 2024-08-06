@@ -3,7 +3,7 @@ import styles from "./Table.module.css"
 
 
 export const Table = ({productsDisplayed}) => {
-  console.log({productsDisplayed})
+  
   return (
     <div>
       <table>
@@ -17,6 +17,8 @@ export const Table = ({productsDisplayed}) => {
         </thead>
         <tbody>
           {/* Estudar pq o forEach não funciona + ver sobre o key */}
+          
+          {/* Algoritmo para gerar a tabela a partir do array enviado */}
           {productsDisplayed.map((element,index) => {
             return (
               <tr>
