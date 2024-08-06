@@ -1,3 +1,5 @@
+//Produtos da tabela
+
 const products = [
     { name: "Arroz", type: "Alimentos", brand: "Camil", price: 25.00 },
     { name: "Feijão", type: "Alimentos", brand: "Camil", price: 10.00 },

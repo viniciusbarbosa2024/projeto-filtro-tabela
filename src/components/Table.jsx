@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./Table.module.css"
-import products from "./products";
 
-export const Table = () => {
+
+export const Table = ({productsDisplayed}) => {
+  console.log({productsDisplayed})
   return (
     <div>
       <table>
@@ -16,20 +17,20 @@ export const Table = () => {
         </thead>
         <tbody>
           {/* Estudar pq o forEach não funciona + ver sobre o key */}
-          {products.map((element,index) => {
+          {productsDisplayed.map((element,index) => {
             return (
               <tr>
                 <td>
-                  {products[index].name}
+                  {productsDisplayed[index].name}
                 </td>
                 <td>
-                  {products[index].type}
+                  {productsDisplayed[index].type}
                 </td>
                 <td>
-                  {products[index].brand}
+                  {productsDisplayed[index].brand}
                 </td>
                 <td>
-                  {products[index].price.toLocaleString('pt-br',{style:'currency',currency: 'BRL'})}
+                  {productsDisplayed[index].price.toLocaleString('pt-br',{style:'currency',currency: 'BRL'})}
                 </td>
               </tr>
             )
