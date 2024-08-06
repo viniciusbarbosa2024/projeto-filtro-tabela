@@ -10,20 +10,7 @@ export const Table = ({productsDisplayed}) => {
         <thead>
           <tr>
             <th>Produto</th>
-            <th>
-              <select name="type" id="type">
-                {/* Anotar sobre o uso do css inline no jsx */}
-                <option value="" style={{display: 'none'}}>Tipo</option>
-                
-                <option value="foods">Alimentos</option>
-
-                <option value="drinks">Bebidas</option>
-
-                <option value="accessories">Acessórios</option>
-
-                <option value="clothes">Roupas</option>
-              </select>
-            </th>
+            <th>Tipo</th>
             <th>Marca</th>
             <th>Preço</th>
           </tr>
